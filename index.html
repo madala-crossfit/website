@@ -76,7 +76,7 @@
                         <a class="page-scroll" href="#parceiros">Parceiros</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#contact">Contato</a>
+                        <a class="page-scroll" href="#contact">Agende sua aula experimental</a>
                     </li>
                 </ul>
             </div>
@@ -89,13 +89,14 @@
     <header id="first">
         <div class="header-content">
             <div class="inner">
-                <img class="cursive wow flipInX logo-madala img-responsive shakeit" src="img/logo2.png" alt="Madala Crossfit - Better everyday">
+                <img class="cursive wow flipInX logo-madala img-responsive shakeit" src="img/logo2.png" alt="Madala Crossfit - Better everyday" href="#video-background" id="toggleVideo" data-toggle="collapse" >
 
-                <a href="#video-background" id="toggleVideo" data-toggle="collapse" class="btn btn-primary btn-xl hidden-sm hidden-xs">Trocar o plano de fundo</a> &nbsp; <a href="#what-is-crossfit" class="btn btn-primary btn-xl page-scroll">O que é CrossFit?</a>
+                &nbsp; <a href="#contact" class="btn btn-primary btn-xl page-scroll">Agende sua aula experimental</a>
+
             </div>
         </div>
         <video autoplay="" muted loop="" class="fillWidth fadeIn wow collapse in" data-wow-delay="0s" poster="img/bg-toggle.jpg" id="video-background">
-            <source src="https://s3-sa-east-1.amazonaws.com/madala/crossfit_games_2016.mp4" type="video/mp4">Your browser does not support the video tag. I suggest you upgrade your browser.
+            <source src="video/crossfit_games_2016.mp4" type="video/mp4">Your browser does not support the video tag. I suggest you upgrade your browser.
         </video>
 
         <a href="https://www.youtube.com/watch?v=En1RBBzQZoA&t=104s" target="_blank" class="link-youtube"><img src="img/logo-youtube.png" alt="Assistir no Youtube" class="img-responsive"></a>
@@ -132,7 +133,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Quem somos</h2>
-                    <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, consectetur error, recusandae rerum reprehenderit quaerat. Fugiat veritatis recusandae error iste nisi dignissimos distinctio, consequatur, vitae rem quos beatae illum eveniet?</h3> -->
+                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure, consectetur error, recusandae rerum reprehenderit quaerat. Fugiat veritatis recusandae error iste nisi dignissimos distinctio, consequatur, vitae rem quos beatae illum eveniet?</h3>
                 </div>
             </div>
             <div class="row">
@@ -414,16 +415,39 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Entre em contato conosco</h2>
+                    <h2 class="section-heading">Agende sua aula experimental</h2>
                     <br>
-                    <!-- <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h3> -->
                 </div>
             </div>
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <form action="https://formspree.io/madalacrossfit@gmail.com" method="POST">
+                        <!-- <h3 class="section-subheading text-muted">Se preferir, entre em contato e agende sua aula experimental pelo formulário abaixo.</h3> -->
+                        <div class="form-group">
+                            <label for="nome">Nome</label>
+                            <input type="text" class="form-control" name="nome" id="nome" placeholder="Nome">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">E-mail</label>
+                            <input type="email" class="form-control" name="email" id="enmail" placeholder="E-mail">
+                        </div>
+                        <div class="form-group">
+                            <label for="telefone">Telefone</label>
+                            <input type="tel" class="form-control" name="telefone" id="tel" placeholder="Telefone">
+                        </div>
+                        <button type="submit" class="btn btn-default">Enviar</button>
+
+                        <br>
+                        <br>
+                    </form>
+                </div>
+            </div>
+
             <div class="row">
                 <div class="col-sm-4 wow fadeInLeft animated" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInLeft;">
                     <div class="icones-contato">
                         <i class="fa fa-phone"></i>
-                        <p>(11) 98591-0030</p>
+                        <h4>(11) 5061-2722</h4>
                     </div>
                 </div>
                 <div class="col-sm-4 wow fadeInUp animated" data-wow-delay="0.3s" style="visibility: visible; animation-delay: 0.3s; animation-name: fadeInUp;">
@@ -496,15 +520,6 @@
     <!-- Theme JavaScript -->
     <script src="js/agency.js"></script>
 
-    <script>
-      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-      ga('create', 'UA-93012615-1', 'auto');
-      ga('send', 'pageview');
-    </script>
 </body>
 
 </html>

@@ -1021,6 +1021,12 @@ animation-iteration-count: infinite;
     padding: 35px 15px;
     height: 210px;
   }
+  .affix-top .navbar-brand img {
+    width: 160px;
+  }
+  .navbar-custom .nav li a{
+    font-size: 10px;
+  }
 }
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) and (max-width: 1199px) {
